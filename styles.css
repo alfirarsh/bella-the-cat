@@ -1,0 +1,137 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;    
+    padding: 0px;
+    font-family:'Times New Roman',serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: verdana;
+    color: deeppink;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffd2e1;
+    z-index: 1;
+    border-bottom: 1px solid deeppink;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  color: #ff85a9;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 14px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+  background-color: deeppink;
+  color: rgb(128, 18, 64);
+  border-radius: 5px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+h2{
+    color: deeppink;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'comic sans ms', sans-serif;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.profile-image{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+a.tbl-pink{
+    display: inline-block;
+    background: deeppink;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms', sans-serif;
+}
+
+a.tbl-pink:hover{
+    background: rgb(138, 14, 65);
+    color: #fff;
+}
+
+.sleepy-bella {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
