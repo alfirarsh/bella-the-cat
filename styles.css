@@ -135,3 +135,104 @@ html{
 body {
     margin: 0;
 }
+
+
+    width: 150px;
+    height:auto;
+}
+
+.bella-stare img {
+    width: 150px;
+    height: auto;
+}
+
+.bella-toy img{
+    width: 150px;
+    height: auto;
+}
+
+.kolom {
+    text-align: center;
+}
+
+.bella-skills {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.bella-skills > div {
+    width: 200px;
+    text-align:center;
+}
+
+.bella-skills img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.deskripsi {
+    font-size: 14px;
+}
+
+.bella-party img {
+    width: 150px;
+    height:auto;
+}
+
+.bella-beauty img {
+    width: 150px;
+    height:auto;
+}
+
+.bella-bear img {
+    width: 150px;
+    height:auto;
+}
+
+.bella-chicken img {
+    width: 150px;
+    height:auto;
+}
+
+.bella-strech img {
+    width: 150px;
+    height:auto;
+}
+
+.bella-crab img {
+    width: 150px;
+    height:auto;
+}
+
+.bella-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bella-gallery h2 {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.bella-gallery > div {
+    width: 150px;
+    text-align: center;
+}
+
+.bella-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bella-gallery p {
+    margin-top: 8px;
+    text-align: center;
+}
