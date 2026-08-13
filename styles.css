@@ -136,7 +136,19 @@ body {
     margin: 0;
 }
 
+.tengah {
+    text-align: center;
+    width: 100%
+}
 
+.sleepy-bella{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.bella-sleep img {
     width: 150px;
     height:auto;
 }
@@ -213,6 +225,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    box-sizing: border-box;
 }
 
 .bella-gallery h2 {
